@@ -10,4 +10,4 @@
 
 
 
-As enterprises attempt to adopt Azure Open AI LLM. It has become evident that certain techniques and recommended practices can immensely assist organizations on this journey. This repo aims to provide real world POC to aid enterprises with efficient and concise techniques to fully leverage and adopt LLM.
+As enterprises attempt to adopt Azure Open AI LLM. It has become evident that certain techniques and recommended practices can immensely assist organizations on thier journey. This repo aims to provide real world POCs to aid enterprises with efficient and concise techniques to fully leverage and adopt LLM.
