@@ -132,6 +132,8 @@ Finally, when we integrate the vector database, in this case Azure Cosmos DB, wi
 
 ![image](https://github.com/azurepocmain/aoai/assets/91505344/ceb69542-6bed-4501-94f8-cb1ddbad81b6)
 
+We would then pass the Full Abbreviation results to the language model or rewrite the question before performing the full LLM request. This will essentially ground the model and provide appropriate context of the users question. 
+<p></p>
 
 
 **For more information or even to have this conecpt demoed live. Please feel free to conact your local CSA (Cloud Solution Architect)**
