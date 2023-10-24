@@ -2,7 +2,8 @@
 <p align="center">  
 <img src="https://github.com/azurepocmain/aoai/assets/91505344/e386c8cf-e0fb-414d-a65b-dc90b8d3f06a" width="500" height="300"></p>
 
-As organizations attempt to unlock their data corpus with Azure Open AI LLM. A unique challenge has arisen. How to properly ground user’s questions to reduce the probability of hallucination and ensure that the proper context for the LLM. 
+
+This repo aims to provide an approach for grounding abbreviations so that the LLM fully understands the context of the question. For smaller internal organization abbreviations, adding instructions in the prompt can resolve this anomaly. However, for larger data corpus, we will need to leverage a vector store to perform a cosine similarity search.  Both approaches leverage the chat completion functions to split the users questions into required text classifications we outlined and the results provided to us as arguments. We are then either provided the raw data or enriched data depending on the initial instructions. For larger corpus of data where abbreviations won’t fit in the instructions. We will pass the arguments into a method which will embed the specific argument, provide a high-ranking cosine results. Finally, pass the question with the results to the LLM to fully ground the LLM on the organizations data corpus. 
 _______________________________________________________________________________________
 While this is a complex topic, this repo takes a very unique approach of solving this issue, by leveraging Azure Open AI function argument. Tokenizing and embedding an organization data and storing the coordinates in a  vector database, and perform a cosine similarity search. This allows us to break down a user’s question to tokens, select the required tokens, then process that token against a vector index. 
 _______________________________________________________________________________________
