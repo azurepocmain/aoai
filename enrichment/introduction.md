@@ -120,3 +120,7 @@ def _aoai_company_function_token(prompt):
 
  
 </pre>
+
+
+_________________________________________________________________
+Using this method, we are able to break down user questions via tokens and then pass those adjectives, nouns, abbreviations, etc., to the respective function for processing and enrichment. 
