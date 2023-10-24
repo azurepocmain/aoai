@@ -130,7 +130,8 @@ _________________________________________________________________
 
 Finally, when we integrate the vector database, with the function, with no detailed instructions. We are able to see the full power of the vector engine below. This plays an integral role when organizations have a large corpus of data that cannot easily fit into the instructions and need to be embedded. 
 
-![image](https://github.com/azurepocmain/aoai/assets/91505344/6ed21893-811c-430b-acc3-f3f4eef99d24)
+![image](https://github.com/azurepocmain/aoai/assets/91505344/ceb69542-6bed-4501-94f8-cb1ddbad81b6)
+
 
 
 **For more information or even to have this conecpt demoed live. Please feel free to conact your local CSA (Cloud Solution Architect)**
