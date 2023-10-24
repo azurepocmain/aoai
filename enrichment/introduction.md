@@ -128,6 +128,9 @@ Using this method, we are able to break down user questions via classification t
 This also provides a way to leverage multiple functions depending on the users question. For example, we can call a function that stores data in cognitive search, Azure SQL or even external APIs. Then have it all processed and summarized by the language model. 
 _________________________________________________________________
 
+Finally, when we integrate the vector database, with the function, with no detailed instructions. We are able to see the full power of the vector engine below. This plays an integral role when organizations have a large corpus of data that cannot easily fit into the instructions and need to be embedded. 
+
+![image](https://github.com/azurepocmain/aoai/assets/91505344/6ed21893-811c-430b-acc3-f3f4eef99d24)
 
 
 
