@@ -1,4 +1,4 @@
-# Grounding language model on your data 
+# Making LLM work with abbreviations 
 <p align="center">  
 <img src="https://github.com/azurepocmain/aoai/assets/91505344/e386c8cf-e0fb-414d-a65b-dc90b8d3f06a" width="500" height="300"></p>
 
