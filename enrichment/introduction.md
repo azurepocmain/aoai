@@ -133,6 +133,7 @@ Finally, when we integrate the vector database, with the function, with no detai
 ![image](https://github.com/azurepocmain/aoai/assets/91505344/6ed21893-811c-430b-acc3-f3f4eef99d24)
 
 
+**For more information or even to have this conecpt demoed live. Please feel free to conact your local CSA (Cloud Solution Architect)**
 
 
 
