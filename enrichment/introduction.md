@@ -124,7 +124,14 @@ def _aoai_company_function_token(prompt):
 
 
 _________________________________________________________________
-Using this method, we are able to break down user questions via tokens and then pass those adjectives, nouns, abbreviations, etc., to the respective function for processing and enrichment. 
+Using this method, we are able to break down user questions via classification tokens and then pass those adjectives, nouns, abbreviations, etc., to the respective function for processing and enrichment. 
+This also provides a way to leverage multiple functions depending on the users question. For example, we can call a function that stores data in cognitive search, Azure SQL or even external APIs. Then have it all processed and summarized by the language model. 
+_________________________________________________________________
+
+
+
+
+
 
 
 
