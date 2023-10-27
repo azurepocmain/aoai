@@ -136,8 +136,8 @@ We would then pass the Full Abbreviation results to the language model or rewrit
 <p></p>
 
 
-**For more information or even to have this conecpt demoed live. Please feel free to conact your local CSA (Cloud Solution Architect)**
-For the full instructions and code stack, please see the above repo folders. 
+**For more information or even to have this conecpt demoed live. Please feel free to conact your local CSA (Cloud Solution Architect).**
+For the full instructions and code stack, please see the abbreviations_full_poc.ipynb file. 
 
 
 
