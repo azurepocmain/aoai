@@ -1,4 +1,6 @@
-**Overview**
+# Azure Cosmos DB MongoAPI Sharding Steps 
+
+**Overview:**
 In scenarios where you need to vectorize millions of documents using Azure Cosmos DB vector index. Determining the most efficient method for creating a large collection of vector indexes is crucial. 
 This document provides a detailed, step-by-step guide on sharding a collection to distribute data across multiple servers. 
 This horizontal scaling approach enables parallelized query execution, thereby unleashing the full potential of Cosmos DB MongoAPI.
