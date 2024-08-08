@@ -20,7 +20,7 @@ Once the new Cosmos DB for MongoDB cluster instance is created, we need to pre-s
 
 db.runCommand({
     shardCollection: "test101.cosmos_comicbooks_past25years",
-    key: { company_name: "hashed" }
+    key: { comicbookpage: "hashed" }
 })
 
 **Step 3:**
